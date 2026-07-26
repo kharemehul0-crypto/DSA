@@ -1,8 +1,7 @@
 class Solution {
     public int trap(int[] height) {
-        if (height == null || height.length == 0){
-        return 0;
-    }
+        
+    
         //calculate left max auxilary array 
         int leftmax[]=new int[height.length];
         leftmax[0]=height[0];
